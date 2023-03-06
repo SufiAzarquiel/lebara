@@ -7,8 +7,186 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: blueviolet;
+    width: 70%;
+    margin: 0 20% 0 10%;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+.align-center {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    color: #808080;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.btn-azul {
+    background-color: #009fe3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.foto-grande {
+    background-image: url(../img/fotogrande.jpg);
+    background-size: cover;
     height: 500px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.foto-grande .content {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    width: 20%;
+    color: white;
+}
+
+.btn-transparente {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+}
+
+.col-2 {
+    width: 49%;
+}
+
+.card {
+    color: white;
+}
+
+.card-container {
+    padding: 0 20px;
+    height: 150px;
+    position: relative;
+}
+
+.small-card-container {
+    padding: 10px;
+    position: relative;
+    color: white;
+    height: 180px;
+}
+
+.bg-rosa {
+    background-color: #d1005d;
+}
+
+.bg-naranja {
+    background-color: #ea7125;
+}
+
+.btn-bottomright {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.bgimg1 {
+    background-image: url(../img/new1.jpg);
+    background-size: cover;
+}
+
+.col-4 {
+    width: 24%;
+}
+
+.mx-50 {
+    margin: 50px 0;
+}
+
+.small-card-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.small-card-container p, .small-card-container h3 {
+    z-index: 1;
+    position: relative;
+}
+
+.small-card-container h3 {
+    margin: 0;
+}
+
+.bgimg2 {
+    background-image: url(../img/new2.jpg);
+    background-size: cover;
+}
+
+.bgimg3 {
+    background-image: url(../img/new3.jpg);
+    background-size: cover;
+}
+
+.bgimg4 {
+    background-image: url(../img/new4.jpg);
+    background-size: cover;
+}
+
+footer {
+    background-color: #00a1e4;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+footer nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer img:hover {
+    cursor: pointer;
 }
