@@ -1,162 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
-        <title>Lebara</title>
-    </head>
-    <body>
-        <header>
-            <div class="container row justify-between align-center">
-                <img src="img/logo.png" width="80px" alt="" />
-                <nav>
-                    <ul>
-                        <li>
-                            <input
-                                type="button"
-                                value="Recargar"
-                                class="btn-azul"
-                            />
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a name="" id="" class="btn btn-primary" href="#" role="button">Recargar</a>
                         </li>
-                        <li><a href="#">Tienda</a></li>
-                        <li><a href="#">MiLebara</a></li>
-                        <li><a href="#">Ayuda</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tarifas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MiLebara</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ayuda</a>
+                        </li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </header>
-        <div class="foto-grande">
-            <div class="content">
-                <h2>
-                    Una Aplicación Lebara para Android. La forma más simple de
-                    recargar.
-                </h2>
-                <input type="button" value="Descargar Ahora" class="btn-azul" />
+        </nav>
+    </header>
+    <div class="position-relative">
+        <img src="img/fotogrande.jpg" alt="" class="img-fluid w-100">
+        <div class="position-absolute top-0 start-0 w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-xl-5 mt-5">
+                        <h3 class="text-light mt-xl-5">Una Aplicación Lebara
+                            para Android. La forma
+                            más simple de recargar</h3>
+                        <a class="btn btn-primary mt-2" href="#" role="button">Descargar ahora</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container">
-            <div class="row justify-between">
-                <div class="col-2">
-                    <div class="card bg-rosa">
-                        <img src="img/card1.jpg" alt="" width="100%" />
-                        <div class="card-container">
-                            <h3>Todo en uno 15€</h3>
-                            <p>
-                                ¡Habla y Navega!
-                                <strong>300 min</strong> nacionales e
-                                internacionales + <strong>1 GB</strong> para
-                                navegar + 2000 min de Lebara a Lebara. ¡Sólo 15€
-                                al mes!
-                            </p>
-                            <input
-                                type="button"
-                                value="Más info"
-                                class="btn-transparente btn-bottomright"
-                            />
+            <div class="row justify-content-between">
+                <div class="col-lg-6 mt-5">
+                    <div class="card h-100">
+                        <img class="card-img-top img-fluid" src="img/card1.jpg" alt="Title">
+                        <div class="card-body text-light bg-danger pb-5 position-relative">
+                            <h4 class="card-title">Todo en uno 15€</h4>
+                            <p class="card-text">¡Habla y Navega! 300 min nacionales e internacionales + 1 GB
+                                para navegar + 2000 min de Lebara a Lebara. ¡Sólo 15€ al mes!</p>
+                            <button type="button"
+                                class="position-absolute bottom-0 end-0 btn btn-outline-light px-5 me-4 mb-3">Más
+                                info</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="card bg-naranja">
-                        <img src="img/card1.jpg" alt="" width="100%" />
-                        <div class="card-container">
-                            <h3>1GB por solo 6€!</h3>
-                            <p>Navega al mejor precio. ¡Oferta Limitada!</p>
-                            <input
-                                type="button"
-                                value="Más info"
-                                class="btn-transparente btn-bottomright"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-between">
-                <div class="col-4 mx-50">
-                    <div class="card bgimg1">
-                        <div class="small-card-container">
-                            <h3>Recarga tu móvil</h3>
-                            <p>
-                                Recarga tu móvil con Lebara desde cualquier
-                                parte del mundo.
-                            </p>
-                            <input
-                                type="button"
-                                value="Más info"
-                                class="btn-azul btn-bottomright"
-                            />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 mx-50">
-                    <div class="card bgimg2">
-                        <div class="small-card-container">
-                            <h3>Bonos Todo en Uno Latinos</h3>
-                            <p>
-                                Bonos Latinos para hablar y navegar desde
-                                15€/mes
-                            </p>
-                            <input
-                                type="button"
-                                value="Más info"
-                                class="btn-azul btn-bottomright"
-                            />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 mx-50">
-                    <div class="card bgimg3">
-                        <div class="small-card-container">
-                            <h3>Novedad Bonos</h3>
-                            <p>
-                                ¡Liberate y navega! <strong>5 GB</strong> solo
-                                <strong>35€</strong>
-                            </p>
-                            <input
-                                type="button"
-                                value="Más info"
-                                class="btn-azul btn-bottomright"
-                            />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 mx-50">
-                    <div class="card bgimg4">
-                        <div class="small-card-container">
-                            <h3>Accede a MiLebara</h3>
-                            <p>
-                                Consulta <strong>llamadas</strong> y
-                                <strong>recarga</strong>
-                            </p>
-                            <input
-                                type="button"
-                                value="Registrarme"
-                                class="btn-azul btn-bottomright"
-                            />
+                <div class="col-lg-6 mt-5">
+                    <div class="card h-100">
+                        <img class="card-img-top img-fluid" src="img/card2.jpg" alt="Title">
+                        <div class="card-body text-light bg-warning pb-5 position-relative">
+                            <h4 class="card-title">1GB por solo 6€!</h4>
+                            <p class="card-text">Navega al mejor percio. ¡Oferta Limitada!</p>
+                            <button type="button"
+                                class="position-absolute bottom-0 end-0 btn btn-outline-light px-5 me-4 mb-3">Más
+                                info</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container row justify-between">
-                <nav>
-                    <ul>
-                        <li><a href="#">Mapa Del Sitio</a></li>
-                        <li>
-                            <a href="#">Política De Privacidad y Cookies</a>
-                        </li>
-                        <li><a href="#">Descargo De Responsabilididad</a></li>
-                        <li><a href="#">Términos Y Condiciones</a></li>
-                    </ul>
-                </nav>
-                <div class="row justify-between align-center w-10">
-                    <img src="img/twitter.png" alt="" />
-                    <img src="img/facebook.png" alt="" />
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3 col-md-6 mt-5">
+                    <div class="card bg-dark text-white">
+                        <img src="img/new1.jpg" class="card-img img-fluid" alt="...">
+                        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.529)">
+                            <h5 class="card-title">Flexi 10</h5>
+                            <p class="card-text">Llamadas a Europa por
+                                10€/mes</p>
+                            <a name="" id="" class="position-absolute bottom-0 end-0 btn btn-primary me-4 mb-3" href="#"
+                                role="button">Más info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5">
+                    <div class="card bg-dark text-white">
+                        <img src="img/new2.jpg" class="card-img img-fluid" alt="...">
+                        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.529)">
+                            <h5 class="card-title">Bonos Todo en Uno Latinos</h5>
+                            <p class="card-text">Llamadas a Europa por
+                                10€/mes</p>
+                            <a name="" id="" class="position-absolute bottom-0 end-0 btn btn-primary me-4 mb-3" href="#"
+                                role="button">Más info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5">
+                    <div class="card bg-dark text-white">
+                        <img src="img/new3.jpg" class="card-img img-fluid" alt="...">
+                        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.529)">
+                            <h5 class="card-title">Novedad Bonos</h5>
+                            <p class="card-text">¡Liberate y navega! 5 GB por solo 35€</p>
+                            <a name="" id="" class="position-absolute bottom-0 end-0 btn btn-primary me-4 mb-3" href="#"
+                                role="button">Más info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5">
+                    <div class="card bg-dark text-white">
+                        <img src="img/new4.jpg" class="card-img img-fluid" alt="...">
+                        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.529)">
+                            <h5 class="card-title">Accede a MiLebara</h5>
+                            <p class="card-text">Consulta llamadas y recarga</p>
+                            <a name="" id="" class="position-absolute bottom-0 end-0 btn btn-primary me-4 mb-3" href="#"
+                                role="button">Más info</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
-    </body>
+        </div>
+    </div>
+
+    <footer class="bg-primary mt-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-9">
+                    <nav>
+                        <ul class="nav navbar-expand-lg">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Mapa Del Sitio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Politica De Privacidad Y Cookies</a>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Descargo De Responsabilidad</a>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Términos Y Condiciones</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 text-lg-end pt-3">
+                    <i class="fa fa-twitter fa-2x text-light" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-f fa-2x text-light ps-5" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
 </html>
